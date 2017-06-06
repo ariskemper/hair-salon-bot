@@ -1,0 +1,22 @@
+{
+  "name": "hair-salon-bot",
+  "version": "0.0.1",
+  "description": "Bot for hair and beauty salon",
+  "main": "index.js",
+  "engines": {
+    "node": "6.10.3"
+  },
+  "dependencies": {
+    "botpress": "0.x",
+    "botpress-analytics": "^2.0.7",
+    "botpress-messenger": "^2.0.17",
+    "botpress-terminal": "^1.0.2",
+    "lodash": "^4.17.4"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aris Kemper",
+  "license": "AGPL-3.0"
+}
